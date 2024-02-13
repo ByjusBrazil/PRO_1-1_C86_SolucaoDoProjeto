@@ -19,6 +19,10 @@ import * as Font from "expo-font";
 
 const appIcon = require("../assets/logo.png");
 
+let customFonts = {
+	'Bubblegum-Sans': require('../assets/fonts/BubblegumSans-Regular.ttf'),
+};
+
 export default class LoginScreen extends Component {
     constructor(props) {
         super(props);
